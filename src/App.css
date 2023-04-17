@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+background: #dadbdb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  height: 400px;
+  width: 400px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(100, 101, 105) ;
+  margin-left: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.movie-card {
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+  height: 200px;
+  width:200px;
+}
+
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #082f7e;
+}
+
+
+.movie-card__poster {
+
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e3e59;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e3e59;
+}
+ 
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
